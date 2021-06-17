@@ -1,8 +1,8 @@
 __all__ = ["projview", "newprojplot"]
 
 import numpy as np
-from .pixelfunc import ang2pix, npix2nside
-from .rotator import Rotator
+from healpy.pixelfunc import ang2pix, npix2nside
+from healpy.rotator import Rotator
 import matplotlib.pyplot as plt
 from matplotlib.projections.geo import GeoAxes
 from matplotlib.ticker import MultipleLocator, FormatStrFormatter, AutoMinorLocator
